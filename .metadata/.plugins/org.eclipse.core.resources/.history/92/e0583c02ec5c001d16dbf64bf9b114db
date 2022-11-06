@@ -1,0 +1,22 @@
+/*
+ * processing.h
+ *
+ *  Created on: Nov 5, 2022
+ *      Author: minhl
+ */
+
+#ifndef INC_PROCESSING_H_
+#define INC_PROCESSING_H_
+
+#include"global.h"
+void fsm_simple_buttons_run();
+#define NON 0
+#define RE 2
+#define INC 3
+#define DEC 4
+#define RE_3s 2
+#define INC_3s 3
+#define DEC_3s 4
+
+
+#endif /* INC_PROCESSING_H_ */

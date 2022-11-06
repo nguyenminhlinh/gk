@@ -1,0 +1,21 @@
+/*
+ * global.h
+ *
+ *  Created on: Nov 5, 2022
+ *      Author: minhl
+ */
+#include "software_timer.h"
+#include"button.h"
+#include"main.h"
+#ifndef INC_GLOBAL_H_
+#define INC_GLOBAL_H_
+
+#define INIT 1
+#define RE_SET 2
+#define INC 3
+#define DEC 4
+
+extern int status;
+extern int count;
+
+#endif /* INC_GLOBAL_H_ */
